@@ -90,10 +90,11 @@ The division has <a href="{{ div_disagr.url }}">disagreements</a>
           {%- assign nc_str = '<sup><a href="#nc">n</a></sup>' -%}
           {%- assign nc_class_str = ' class = "non-competing"' -%}
         {%- endif -%}
+        {%- assign participant.url = {{ site.baseurl }}participant.url %}
         {%- assign ranking = ranking
           |append: '<span'
           |append: nc_class_str
-          |append: '><a href="'{{ site.baseurl }}
+          |append: '><a href="'
           |append: participant.url
           |append: '">'
           |append: solver.name
