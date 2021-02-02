@@ -200,7 +200,7 @@ These are the logic divisions in which each solver is participating.
     {%- assign in_logic = solver.divisions |where: "name", division.name |first -%}
     {% unless in_logic %}{% continue %}{% endunless %}
 <tr{% if solver.competing == "no" %} class="non-competing"{% endif %}>
-<td><a href="{{ solver.url }}">{{ solver.name }}</a>
+<td><a href="{{ site.baseurl }}{{ solver.url }}">{{ solver.name }}</a>
     {%- if solver.competing == "no" -%}
 <sup><a href="#nc">n</a></sup>
     {%- endif -%}
