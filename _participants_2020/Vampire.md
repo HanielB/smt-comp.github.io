@@ -1,6 +1,6 @@
 ---
 layout: participant
-year: 2021
+year: 2020
 contact: "giles.reger@manchester.ac.uk"
 name: "Vampire"
 preliminaryID: "28324"

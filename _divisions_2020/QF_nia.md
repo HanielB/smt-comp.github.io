@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_nia
 pretty_name: QF_NonLinearIntArith (QF_NIA, QF_NIRA)
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_nia

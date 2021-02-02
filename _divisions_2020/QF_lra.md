@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_lra
 pretty_name: QF_LinearRealArith (QF_LRA, QF_RDL)
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_lra

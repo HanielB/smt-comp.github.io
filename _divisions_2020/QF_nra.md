@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_nra
 pretty_name: QF_NRA
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_nra

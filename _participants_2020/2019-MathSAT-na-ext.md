@@ -1,6 +1,6 @@
 ---
 layout: participant
-year: 2021
+year: 2020
 contact: "airfan@stanford.edu"
 name: "2019-MathSAT-na-ext"
 preliminaryID: "23427"

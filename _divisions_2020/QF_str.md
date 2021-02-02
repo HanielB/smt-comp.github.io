@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_str
 pretty_name: QF_Strings (QF_S, QF_SLIA)
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_str

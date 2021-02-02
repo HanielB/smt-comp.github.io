@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: AUFFPDTNIRA
 pretty_name: AUFFPDTNIRA
 description: http://smtlib.cs.uiowa.edu/logics.shtml#AUFFPDTNIRA

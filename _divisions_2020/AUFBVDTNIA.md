@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: AUFBVDTNIA
 pretty_name: AUFBVDTNIA
 description: http://smtlib.cs.uiowa.edu/logics.shtml#AUFBVDTNIA

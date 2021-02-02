@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_machine_cc_bv
 pretty_name: QF_Equality+BVArith (QF_ABV, QF_UFBV, QF_AUFBV)
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_machine_cc_bv

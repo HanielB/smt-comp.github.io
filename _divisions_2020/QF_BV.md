@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_BV
 pretty_name: QF_BV
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_BV

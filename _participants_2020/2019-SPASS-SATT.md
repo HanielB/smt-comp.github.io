@@ -1,6 +1,6 @@
 ---
 layout: participant
-year: 2021
+year: 2020
 contact: "mbromber@mpi-inf.mpg.de"
 name: "2019-SPASS-SATT"
 preliminaryID: "23356"

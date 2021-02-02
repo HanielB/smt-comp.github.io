@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: QF_cc_na
 pretty_name: QF_Equality+NonLinearArith (QF_UFNRA, QF_UFNIA, QF_ANIA, QF_AUFNIA)
 description: http://smtlib.cs.uiowa.edu/logics.shtml#QF_cc_na

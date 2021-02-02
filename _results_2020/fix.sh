@@ -2,7 +2,7 @@
 
 
 for name in ./*.md; do
-  sed -i 's/2020/2021/g' $name
+  sed -i 's/2021/2020/g' $name
 done
 
 # sed -i 's/QF_FPLRA/QF_machine_fp/g' $1

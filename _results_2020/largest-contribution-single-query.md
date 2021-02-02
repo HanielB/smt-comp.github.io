@@ -1,11 +1,11 @@
 ---
 layout: result_comp
-resultdate: 2021-01-29 22:05:14
+resultdate: 2020-01-29 22:05:14
 
-year: 2021
+year: 2020
 
-results: results_2021
-participants: participants_2021
+results: results_2020
+participants: participants_2020
 
 track: track_single_query
 recognition: largest_contribution

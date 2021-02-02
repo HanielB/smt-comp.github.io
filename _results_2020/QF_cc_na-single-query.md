@@ -1,13 +1,13 @@
 ---
 layout: result
-resultdate: 2021-01-29 22:04:58
+resultdate: 2020-01-29 22:04:58
 
-year: 2021
+year: 2020
 
-divisions: divisions_2021
-participants: participants_2021
+divisions: divisions_2020
+participants: participants_2020
 
-disagreements: disagreements_2021
+disagreements: disagreements_2020
 division: QF_cc_na
 pretty_name: QF_Equality+NonLinearArith (QF_UFNRA, QF_UFNIA, QF_ANIA, QF_AUFNIA)
 track: track_single_query

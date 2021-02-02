@@ -1,6 +1,6 @@
 ---
 layout: division
-year: 2021
+year: 2020
 division: cc_na
 description: http://smtlib.cs.uiowa.edu/logics.shtml#cc_na
 tracks:
