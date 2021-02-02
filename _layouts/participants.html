@@ -74,7 +74,7 @@ entered as non-competing solvers by the organizers for comparison.
 </tr>
 {%- for solver in participants -%}
 <tr{% if solver.competing == "no" %} class="non-competing"{% endif %}>
-<td><a href="{{ solver.url }}">{{ solver.name }}</a>{%- if solver.competing == "no" -%}<sup><a href="#nc">n</a></sup>{%- endif -%}
+<td><a href="{{ site.baseurl }}{{ solver.url }}">{{ solver.name }}</a>{%- if solver.competing == "no" -%}<sup><a href="#nc">n</a></sup>{%- endif -%}
 </td>
 {% for track in tracks -%}
 <td class="center">
