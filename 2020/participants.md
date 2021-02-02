@@ -1,8 +1,8 @@
 ---
 layout: participants
 
-year: 2021
-participants: participants_2021
+year: 2020
+participants: participants_2020
 
 nyse:
   date: 2020-05-27

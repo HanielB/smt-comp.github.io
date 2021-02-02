@@ -1,7 +1,7 @@
 ---
 layout: results
 
-year: 2021
+year: 2020
 
-results: results_2021
+results: results_2020
 ---
