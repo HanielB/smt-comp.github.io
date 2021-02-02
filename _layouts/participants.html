@@ -61,9 +61,6 @@ The following solvers have been submitted to SMT-COMP {{ page.year }} or were
 entered as non-competing solvers by the organizers for comparison.
 <br/><br/>
 
-{%- assign competing_solvers = participants |where: "competing", "yes" -%}
-{%- assign non_competing_solvers = participants |where: "competing", "no" -%}
-{%- assign all_solvers = competing_solvers |concat: non_competing_solvers -%}
 <table>
 <tr>
 <th>Solver</th>
@@ -75,7 +72,7 @@ entered as non-competing solvers by the organizers for comparison.
 <th>Seed</th>
 <th>System Description</th>
 </tr>
-{%- for solver in all_solvers -%}
+{%- for solver in participants -%}
 <tr{% if solver.competing == "no" %} class="non-competing"{% endif %}>
 <td><a href="{{ solver.url }}">{{ solver.name }}</a>{%- if solver.competing == "no" -%}<sup><a href="#nc">n</a></sup>{%- endif -%}
 </td>
@@ -100,22 +97,7 @@ located in year/system-description/.
 {%- if solver.sysDescrUrl contains "://" -%}
     {%- assign sysDescrUrl = solver.sysDescrUrl -%}
 {%- else -%}
-    {%- comment -%}
-    This is a trick from
-    https://maedi.com/code/jekyll-check-if-string-number/ to figure out
-    if string represents a number.
-    {%- endcomment -%}
-
-    {%- assign toolYear = solver.name | slice: 0, 4 -%}
-    {%- assign addition = toolYear | plus: 0 %}
-    {% capture addition %}{{addition}}{% endcapture %}
-    {% if toolYear != addition %}
-        {% assign toolYear = page.year %}
-    {%- endif -%}
-    {%- assign sysDescrUrl = "../../"
-        |append: toolYear
-        |append: "/system-descriptions/"
-        |append: solver.sysDescrUrl -%}
+    {%- assign sysDescrUrl = "system-descriptions/" | append: solver.sysDescrUrl -%}
 {%- endif -%}
 <a href="{{ sysDescrUrl }}">{{ solver.sysDescrName }}</a></td>
 {%- endif -%}
@@ -203,7 +185,7 @@ These are the logic divisions in which each solver is participating.
   {%- assign nsolvers_logic_comp_list = nsolvers_logic_comp_list |split: ":" -%}
   {%- assign nsolvers_logic_non_comp_list = nsolvers_logic_non_comp_list |split: ":" -%}
 
-<h3>{{ division.name }}</h3>
+<h3>{{ division.pretty_name }}</h3>
 <table>
 <tr>
 <th>Solver</th>
@@ -214,7 +196,7 @@ These are the logic divisions in which each solver is participating.
 </th>
   {%- endfor -%}
 </tr>
-  {%- for solver in all_solvers -%}
+  {%- for solver in participants -%}
     {%- assign in_logic = solver.divisions |where: "name", division.name |first -%}
     {% unless in_logic %}{% continue %}{% endunless %}
 <tr{% if solver.competing == "no" %} class="non-competing"{% endif %}>

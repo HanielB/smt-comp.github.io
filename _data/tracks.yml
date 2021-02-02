@@ -1,3 +1,9 @@
+- year: 2021
+  tracks:
+  - raw_name: track_single_query
+    pretty_name: Single Query Track
+    status: competitive
+
 - year: 2020
   tracks:
   - raw_name: track_single_query
@@ -53,31 +59,4 @@
     status: competitive
   - raw_name: track_unsat_core
     pretty_name: Unsat Core Track
-    status: competitive
-- year: 2016
-  tracks:
-  - raw_name: track_main
-    pretty_name: Main Track
-    status: competitive
-  - raw_name: track_application
-    pretty_name: Application Track
-    status: competitive
-  - raw_name: track_unsat_core
-    pretty_name: Unsat Core Track
-    status: competitive
-- year: 2015
-  tracks:
-  - raw_name: track_main
-    pretty_name: Main Track
-    status: competitive
-  - raw_name: track_application
-    pretty_name: Application Track
-    status: competitive
-- year: 2014
-  tracks:
-  - raw_name: track_main
-    pretty_name: Main Track
-    status: competitive
-  - raw_name: track_application
-    pretty_name: Application Track
     status: competitive
