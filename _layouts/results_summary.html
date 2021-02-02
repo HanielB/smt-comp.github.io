@@ -93,8 +93,8 @@ The division has <a href="{{ div_disagr.url }}">disagreements</a>
         {%- assign ranking = ranking
           |append: '<span'
           |append: nc_class_str
-          |append: '><a href="'
-          |append: {{ site.baseurl }}participant.url
+          |append: '><a href="'{{ site.baseurl }}
+          |append: participant.url
           |append: '">'
           |append: solver.name
           |append: '</a>'
