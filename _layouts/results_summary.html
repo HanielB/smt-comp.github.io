@@ -35,7 +35,7 @@ layout: default
 {%- assign division_data = site[page.divisions] |where: "division", division.division |first -%}
 {%- assign division_data = division_data.tracks |where: "name", page.track |first -%}
 
-<h3><a href="{{ division.url }}">{{ division.pretty_name }}</a></h3>
+<h3><a href="{{ site.baseurl }}{{ division.url }}">{{ division.pretty_name }}</a></h3>
 {%- if division_data.status != "competitive" -%}
 <p>
 This division is {{ division_data.status }}. Solvers are only ranked by performance, but no
