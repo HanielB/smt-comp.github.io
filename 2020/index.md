@@ -18,14 +18,12 @@ solvers had entered but the logics were combined into the following divisions:
   - Logics: QF_LIA, QF_LIRA, QF_IDL
 - QF_LinearRealArith
   - Logics: QF_LRA, QF_RDL
-- QF_BV
-
+- QF_BV</br>
 - QF_FPArith
   - Logics: QF_FP, QF_UFFP, QF_FPLRA, QF_BVFP, QF_ABVFP, QF_BVFPLRA, QF_ABVFPLRA
 - QF_NonLinearIntArith
   - Logics: QF_NIA, QF_NIRA
-- QF_NRA
-
+- QF_NRA</br>
 - QF_Strings
   - Logics: QF_S, QF_SLIA
 
@@ -41,8 +39,7 @@ solvers had entered but the logics were combined into the following divisions:
   - Logics: AUFDTNIRA, UFDTNIA, UFDTNIRA, AUFNIA, AUFNIRA, UFNIA
 - Arith
   - Logics: LRA, LIA, NIA, NRA
-- BV
-
+- BV</br>
 - FPArith
   - Logics: BVFP, FP, BVFPLRA, FPLRA
 
